@@ -1,2 +1,4 @@
-export FormElement from "./form-element";
-export TextInputElement from "./text-input-element";
+import FormElement from "./form-element";
+import TextInputElement from "./text-input-element";
+
+export {FormElement, TextInputElement};
