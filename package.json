@@ -1,0 +1,33 @@
+{
+  "name": "react-material-form",
+  "version": "1.0.0",
+  "description": "React components for form validation using material-ui",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haykaghabekyan/react-material-form.git"
+  },
+  "keywords": [
+    "reactjs",
+    "material-ui",
+    "nodejs"
+  ],
+  "author": "Hayk Aghabekyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haykaghabekyan/react-material-form/issues"
+  },
+  "homepage": "https://github.com/haykaghabekyan/react-material-form#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "material-ui": "^0.17.4",
+    "react": "^15.5.4"
+  },
+  "peerDependencies": {
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
