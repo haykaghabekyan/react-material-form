@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import extend from "lodash/extend";
 
@@ -64,12 +65,12 @@ class FormElement extends React.Component {
 }
 
 FormElement.propTypes = {
-    onChange: React.PropTypes.func
+    onChange: PropTypes.func
 };
 
 // make information available to its children
 FormElement.childContextTypes = {
-    updateFormElement: React.PropTypes.func
+    updateFormElement: PropTypes.func
 };
 
 export default FormElement;
