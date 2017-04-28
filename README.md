@@ -13,7 +13,7 @@ Check code available on [Github](https://github.com/haykaghabekyan/react-redux/b
 
 ```javascript
 import React from "react";
-import {FormElement, TextInputElement} from "react-material-form";
+import {MyForm, MyTextField, MySelectField} from "react-material-form";
 import RaisedButton from "material-ui/RaisedButton";
 
 const isEmptyObject = (obj) =>  {
@@ -60,11 +60,33 @@ class Login extends React.Component {
         return (
             <FormElement onSubmit={this.onSubmit} onChange={this.onChange}>
                 <div>
-                    <TextInputElement email id="email" name="email" hintText="Email" fullWidth={true} />
+                    <MyTextField
+                        email
+                        id="email"
+                        name="email"
+                        hintText="Email"
+                        fullWidth={true}
+                    />
                 </div>
 
                 <div>
-                    <TextInputElement required type="password" id="password" name="password" hintText="Password" fullWidth={true} />
+                    <MyTextField
+                        required
+                        type="password"
+                        id="password"
+                        name="password"
+                        hintText="Password"
+                        fullWidth={true}
+                    />
+                </div>
+
+                <div>
+                    <MySelectField
+                        required
+                        name="gender"
+                        floatingLabelText="Select your gender"
+                        options={[{label: "Male", value: "male"}, {label: "Female", value: "female"}]}
+                    />
                 </div>
 
                 <div>
