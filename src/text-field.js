@@ -5,7 +5,7 @@ import TextField from "material-ui/TextField";
 
 import {isNotEmpty, isNumber, isLetters, isEmailAddress} from "./validators";
 
-class TextInputElement extends React.Component {
+class MyTextField extends React.Component {
 
     constructor (props) {
         super (props);
@@ -101,8 +101,8 @@ class TextInputElement extends React.Component {
 }
 
 // Access parent context by defining contextTypes
-TextInputElement.contextTypes = {
+MyTextField.contextTypes = {
     updateFormElement: PropTypes.func
 };
 
-export default TextInputElement;
+export default MyTextField;

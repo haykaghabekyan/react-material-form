@@ -1,4 +1,5 @@
-import FormElement from "./form-element";
-import TextInputElement from "./text-input-element";
+import MyForm from "./form";
+import MyTextField from "./text-field";
+import MySelectField from "./select-field";
 
-export {FormElement, TextInputElement};
+export {MyForm, MyTextField, MySelectField};
