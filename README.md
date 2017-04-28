@@ -5,11 +5,11 @@ react-material-form is a set of react components, for validating forms using mat
 #Install
 npm install react-material-form --save
 
-#Usage
-Check code available on [Github](https://github.com/haykaghabekyan/react-redux/blob/master/src/public/js/components/login/login.js) or the code snippet bellow
-
 #Available validation rules
 required, email, letters, number
+
+#Usage
+Check code available on [Github](https://github.com/haykaghabekyan/react-redux/blob/master/src/public/js/components/login/login.js) or the code snippet bellow
 
 ```javascript
 import React from "react";
